@@ -404,6 +404,42 @@ Of course! Here are more advanced Python interview questions and answers:
      thread.join()
      ```
 
+
+
+
+```python
+
+import threading
+import time
+
+def print_numbers(name, delay):
+    for i in range(5):
+        time.sleep(delay)
+        print(f"{name}: {i}")
+
+# Create multiple threads
+thread1 = threading.Thread(target=print_numbers, args=("Thread 1", 1))
+thread2 = threading.Thread(target=print_numbers, args=("Thread 2", 0.5))
+thread3 = threading.Thread(target=print_numbers, args=("Thread 3", 0.2))
+
+# Start the threads
+thread1.start()
+thread2.start()
+thread3.start()
+
+# Wait for all threads to finish
+thread1.join()
+thread2.join()
+thread3.join()
+
+print("All threads have finished executing.")
+```
+
+
+
+
+
+
 6. **How do you create and manage a process in Python?**
    - **Answer**: You can create and manage processes using the `multiprocessing` module.
      ```python
