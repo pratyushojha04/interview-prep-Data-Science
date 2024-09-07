@@ -1579,3 +1579,105 @@ Here are more MySQL interview questions and answers starting from number 84:
        ```
        - This example creates a view `high_salary_employees` that shows only employees with a salary greater than $100,000.
 
+
+## Like One word Substitution DBMS interview questions-->
+1. Database: A structured collection of data organized for efficient retrieval.
+2. SQL: Structured Query Language used for managing relational databases.
+3. Table: A collection of related data organized in rows and columns.
+4. Query: A request for data or information from a database.
+5. Index: A data structure that improves the speed of data retrieval operations on a database table.
+6. Primary Key: A unique identifier for each record in a table.
+7. Foreign Key: A column that establishes a relationship with a primary key in another table.
+8. Normalization: Process of organizing data in a database to reduce redundancy and improve data integrity.
+9. ACID: A set of properties that guarantee reliable database transactions.
+10. Relational Model: A database model based on the mathematical concept of relations.
+11. NoSQL: A database management system that provides a mechanism for storage and retrieval of data that is modeled in ways other than the tabular relations used in relational databases.
+12. Backup: A copy of data stored in case the original data is lost or damaged.
+13. Replication: The process of sharing data across multiple databases to ensure redundancy and availability.
+14. Schema: A blueprint that defines the structure of a database, including tables, fields, and relationships.
+15. Transaction: A single logical unit of work that accesses and possibly modifies the contents of a database.
+16. View: A virtual table derived from one or more tables in the database.
+17. Trigger: A database object that is automatically executed in response to certain events.
+18. Concurrency Control: Techniques used to manage simultaneous access to shared data in a database.
+19. Data Warehouse: A central repository for storing and analyzing large volumes of data.
+20. OLAP: Online Analytical Processing used for analyzing multidimensional data from different perspectives.
+21. ETL: Extract, Transform, Load process used to transfer data from one database to another.
+22. Sharding: Horizontal partitioning of data across multiple databases to improve performance and scalability.
+23. In-Memory Database: A database that primarily relies on main memory for data storage and retrieval.
+24. Columnar Database: A database management system that stores data tables by column rather than by row.
+25. Cloud Database: A database service provided by a cloud computing platform.
+26. Big Data: Extremely large datasets that require specialized software tools for processing and analysis.
+27. Data Mining: Process of discovering patterns and insights from large datasets.
+28. Master Data Management (MDM): Process of ensuring data consistency and accuracy across an organization.
+29. Data Governance: A set of policies and procedures for managing data assets.
+30. Data Lake: A centralized repository that allows storage of structured, semi-structured, and unstructured data at any scale.
+31. CAP Theorem: Theoretical concept stating that it is impossible for a distributed data store to simultaneously provide more than two out of three guarantees: consistency, availability, and partition tolerance.
+32. Blockchain: A decentralized, distributed ledger technology used for recording transactions across multiple computers.
+33. Data Encryption: Process of converting data into a code to prevent unauthorized access.
+34. Data Compression: Process of reducing the size of data to save storage space and transmission time.
+35. Data Masking: Technique used to anonymize sensitive data by replacing original data with fictitious but realistic data.
+36. Data Migration: Process of transferring data from one system to another.
+37. Data Dictionary: A centralized repository of information about data, such as data definitions, relationships, and metadata.
+38. Data Replication: Process of creating and maintaining copies of data in multiple locations to ensure redundancy and availability.
+39. Data Modeling: Process of creating a data model to represent the structure and relationships of data in a database.
+40. Data Warehouse: A centralized repository that stores data from various sources for reporting and analysis.
+41. Data Lake: A centralized repository that stores structured, semi-structured, and unstructured data at scale.
+42. Data Mining: Process of discovering patterns and insights from large datasets.
+43. Data Cleansing: Process of detecting and correcting errors and inconsistencies in data.
+44. Data Integration: Process of combining data from different sources into a single, unified view.
+45. Data Privacy: Protection of personal or sensitive information from unauthorized access or disclosure.
+46. Data Leakage: Unauthorized or accidental disclosure of sensitive data.
+47. Data Masking: Technique used to hide or obfuscate sensitive data by replacing it with fictional data.
+48. Data Anonymization: Process of removing personally identifiable information from data to protect privacy.
+49. Data Breach: Unauthorized access to sensitive or confidential information.
+50. Data Encryption: Process of converting plaintext data into ciphertext to protect it from unauthorized access.
+51. Data Loss Prevention (DLP): Strategy for preventing the loss or unauthorized disclosure of sensitive data.
+52. Data Classification: Categorization of data based on its sensitivity and importance.
+53. Data Backup: Process of creating copies of data to protect against data loss.
+54. Data Recovery: Process of restoring data from backups in the event of data loss or corruption.
+55. Disaster Recovery: Plan and process for recovering from a catastrophic event that affects data availability.
+56. Database Audit: Process of monitoring and recording database activities to ensure compliance with security policies.
+57. Database Encryption: Technique used to protect data stored in a database by encrypting it.
+58. Database Firewall: Security mechanism that monitors and controls traffic between a database and external networks.
+59. Database Hardening: Process of securing a database by implementing security best practices and configurations.
+60. Database Patching: Process of applying updates and fixes to a database to address security vulnerabilities.
+61. Database Redundancy: Duplication of critical components of a database to ensure high availability and fault tolerance.
+62. Database Scalability: Ability of a database system to handle increasing workload by adding resources.
+63. Database Performance Tuning: Process of optimizing a database to improve its efficiency and responsiveness.
+64. Database Monitoring: Process of continuously observing and analyzing database performance and health.
+65. Database Clustering: Technique for increasing database availability and fault tolerance by grouping multiple servers.
+66. Database Mirroring: Replication technique that creates and maintains copies of a database on multiple servers.
+67. Database Partitioning: Technique for dividing large database tables into smaller, more manageable parts.
+68. Database Virtualization: Technology that abstracts physical database resources and presents them as virtual resources.
+69. Database Locking: Mechanism used to control access to database resources to prevent concurrent access conflicts.
+70. Database Triggers: Actions or procedures that are automatically executed in response to specific events or conditions in a database.
+71. Database Views: Virtual tables that are derived from one or more base tables.
+72. Database Schema: Logical structure that defines the organization of data in a database.
+73. Database Migration: Process of transferring data and applications from one database platform to another.
+74. Database Connection Pooling: Technique for optimizing database performance by reusing and managing connections.
+75. Database Backup and Recovery: Process of creating copies of data to protect against data loss and restoring data from backups when needed.
+76. Database Monitoring and Management: Activities related to monitoring, maintaining, and optimizing the performance of a database system.
+77. Database Security: Measures taken to protect a database from unauthorized access, data breaches, and other security threats.
+78. Database Administration: Role responsible for managing and maintaining a database system, including installation, configuration, monitoring, and troubleshooting.
+79. Database Performance Tuning: Process of optimizing database performance by identifying and resolving performanceissues.
+80. Database Optimization: Process of improving the efficiency and performance of a database by optimizing data structures, queries, and configurations.
+81. Database Replication: Process of copying and synchronizing data across multiple databases to improve availability, fault tolerance, and scalability.
+82. Database Clustering: Technique for increasing database availability and fault tolerance by grouping multiple database servers into a cluster.
+83. Database Sharding: Technique for horizontally partitioning data across multiple databases or servers to improve scalability and performance.
+84. Database Caching: Technique for storing frequently accessed data in memory to improve query performance and reduce database load.
+85. Database Partitioning: Technique for dividing large database tables into smaller, more manageable partitions to improve performance and manageability.
+86. Database Compression: Technique for reducing the size of a database by storing data in a compressed format to save storage space and improve performance.
+87. Database Archiving: Process of moving inactive or historical data to a separate storage location to free up space in the database and improve performance.
+88. Database Backup and Recovery: Process of creating backups of a database to protect against data loss and restoring data from backups when needed.
+89. Database Auditing: Process of monitoring and recording database activities to track changes, ensure compliance, and investigate security incidents.
+90. Database Encryption: Technique for protecting sensitive data stored in a database by encrypting it to prevent unauthorized access.
+91. Database Firewalls: Security mechanisms that monitor and filter traffic between a database and external networks to prevent unauthorized access and attacks.
+92. Database Intrusion Detection Systems (IDS): Security systems that monitor database activity for suspicious behavior and alert administrators to potential security threats.
+93. Database Access Control: Mechanism for restricting access to a database to authorized users and controlling their privileges and permissions.
+94. Database Authentication: Process of verifying the identity of users and granting them access to a database based on their credentials.
+95. Database Authorization: Process of granting or denying users permissions to perform specific actions or operations on a database.
+96. Database Role-Based Access Control (RBAC): Security model that restricts access to a database based on the roles assigned to users.
+97. Database Two-Factor Authentication (2FA): Security mechanism that requires users to provide two forms of authentication to access a database, typically a password and a temporary code.
+98. Database Single Sign-On (SSO): Authentication method that allows users to access multiple databases and applications with a single set of credentials.
+99. Database Multi-Factor Authentication (MFA): Security mechanism that requires users to provide multiple forms of authentication to access a database, typically something they know (e.g., a password) and something they have (e.g., a token).
+100. Database Password Policy: Set of rules and requirements for creating and managing passwords to ensure strong security and prevent unauthorized access.
